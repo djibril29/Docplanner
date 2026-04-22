@@ -1,0 +1,282 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #3d4f5f;
+  background: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 930px;
+  margin: 0 auto;
+}
+
+.topbar {
+  padding: 18px 0;
+}
+
+.logo {
+  margin: 0;
+  color: #00b39b;
+  font-size: 24px;
+  display: inline-block;
+}
+
+.menu {
+  list-style: none;
+  margin: 4px 0 0;
+  padding: 0;
+  float: right;
+}
+
+.menu li {
+  display: inline-block;
+  margin-left: 18px;
+}
+
+.menu a {
+  color: #9aa4ad;
+  font-size: 14px;
+}
+
+.menu a.active,
+.menu a:hover {
+  color: #00b39b;
+}
+
+.hero {
+  text-align: center;
+  margin-top: 36px;
+}
+
+.mark {
+  color: #00b39b;
+  font-size: 42px;
+  margin: 0;
+}
+
+.hero h2 {
+  color: #00b39b;
+  font-weight: normal;
+  margin: 6px 0 24px;
+}
+
+.hero-text {
+  width: 46%;
+  text-align: left;
+  display: inline-block;
+  margin: 0 1.5%;
+  line-height: 1.6;
+  vertical-align: top;
+}
+
+.services {
+  margin-top: 32px;
+}
+
+.service {
+  width: 28.7%;
+  display: inline-block;
+  margin-right: 2%;
+  border-radius: 10px;
+  padding: 22px;
+  color: #fff;
+  vertical-align: top;
+  min-height: 185px;
+}
+
+.service:last-child {
+  margin-right: 0;
+}
+
+.service p {
+  margin: 0 0 8px;
+  opacity: 0.8;
+}
+
+.service h3 {
+  margin: 0 0 30px;
+  font-size: 23px;
+  font-weight: normal;
+}
+
+.service a {
+  color: #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+}
+
+.service-patient {
+  background: #00ccb1;
+}
+
+.service-doctor {
+  background: #3d83df;
+}
+
+.service-clinic {
+  background: #1b2734;
+}
+
+.brands {
+  margin: 38px 0 55px;
+}
+
+.brands h3 {
+  color: #00b39b;
+  font-weight: normal;
+  width: 27%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
+
+.brands ul {
+  width: 70%;
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.brands li {
+  display: inline-block;
+  color: #b3b9be;
+  margin: 0 24px 18px 0;
+}
+
+.stats {
+  background: #d8f6f5;
+  padding: 48px 0;
+}
+
+.stats-left {
+  width: 44%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.stats-left h3 {
+  color: #00b39b;
+  font-size: 31px;
+  font-weight: normal;
+  margin: 0 0 12px;
+}
+
+.stats-left p {
+  line-height: 1.6;
+}
+
+.stats-right {
+  width: 52%;
+  display: inline-block;
+  margin-left: 3%;
+}
+
+.stat-box {
+  width: 42%;
+  display: inline-block;
+  background: #fff;
+  margin: 0 2% 14px 0;
+  border-radius: 6px;
+  text-align: center;
+  padding: 20px 12px;
+  min-height: 150px;
+  vertical-align: top;
+}
+
+.stat-box h4 {
+  color: #00b39b;
+  font-size: 22px;
+  margin: 0 0 8px;
+  font-weight: normal;
+}
+
+.stat-box p {
+  margin: 0;
+  color: #76848f;
+  font-size: 14px;
+}
+
+.offices {
+  text-align: center;
+  padding: 60px 0 20px;
+}
+
+.offices h3 {
+  color: #00b39b;
+  font-weight: normal;
+  font-size: 30px;
+  margin: 0 0 12px;
+}
+
+.offices > p {
+  width: 56%;
+  margin: 0 auto 30px;
+  line-height: 1.6;
+}
+
+.office-card {
+  width: 260px;
+  display: inline-block;
+  border: 1px solid #e7edf1;
+  border-radius: 8px;
+  margin: 12px;
+  overflow: hidden;
+  text-align: left;
+  background: #fff;
+}
+
+.office-card img {
+  width: 100%;
+  display: block;
+}
+
+.office-footer {
+  padding: 12px;
+}
+
+.office-footer span {
+  color: #6e7d88;
+}
+
+.office-footer a {
+  float: right;
+  background: #3d83df;
+  color: #fff;
+  font-size: 11px;
+  padding: 8px 10px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.cta {
+  text-align: center;
+  padding: 30px 0 65px;
+}
+
+.cta h3 {
+  margin: 0 0 15px;
+  font-weight: normal;
+  color: #2c3e50;
+}
+
+.cta a {
+  background: #3d83df;
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 10px 16px;
+  border-radius: 4px;
+}
+
+.footer {
+  border-top: 1px solid #edf1f4;
+  text-align: center;
+  color: #9da8b1;
+  font-size: 12px;
+  padding: 24px 12px;
+}
